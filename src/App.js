@@ -26,9 +26,9 @@ function App() {
         <div className="bg-gradient-to-t from-[#97FFFF] to-[#56D3F4] min-h-screen">
             <main className="max-w-7xl mx-auto ">
                 <AppHeader/>
-                <div className="px-6">
+                <div className="px-6 xl:px-8">
                     <Banner/>
-                    <section className="flex space-x-8 mt-16">
+                    <section className="flex flex-col space-y-8 md:flex-row md:space-x-8 md:space-y-0 mt-16 xl:mt-32">
                         {notes.map(note => <Note city={note.city} number={note.number} text={note.text}
                                                  key={note.number}/>)}
                     </section>
