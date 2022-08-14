@@ -4,7 +4,7 @@ import {BsBell} from "react-icons/bs";
 const TormsHeader = () => {
     return (
         <>
-            <div className="px-10 pt-3 bg-gray-100 flex-shrink-0 w-[92vw]">
+            <div className="px-10 pt-3 bg-gray-100 flex-shrink-0 w-[92vw] h-[11vh]">
                 <div className="flex justify-between items-center">
                     <span className="self-end font-bold"> Dashboard</span>
                     <div
