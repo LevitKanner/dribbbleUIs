@@ -1,4 +1,3 @@
-import React from 'react';
 import {TbStack} from "react-icons/tb";
 import {HiOutlineArrowsExpand} from "react-icons/hi";
 import {MdStackedLineChart} from "react-icons/md";
