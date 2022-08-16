@@ -23,7 +23,8 @@ const TormsStatistics = () => {
     return (
         <>
             <div className="flex flex-wrap">
-                {stats.map((s, i) => <TormsStat title={s.title} growth={s.growth} percentage={s.percentage} key={i}/>)}
+                {stats.map((s, i) =>
+                    <TormsStat title={s.title} growth={s.growth} percentage={s.percentage} key={i}/>)}
             </div>
         </>
     )
