@@ -25,7 +25,7 @@ export function Builder_au() {
             <AppHeader/>
             <div className="px-6">
                 <Banner/>
-                <section className="flex space-x-8 mt-16">
+                <section className="flex space-x-8 py-16">
                     {notes.map(note =>
                         <Note city={note.city} number={note.number} text={note.text}
                               key={note.number}/>)}
