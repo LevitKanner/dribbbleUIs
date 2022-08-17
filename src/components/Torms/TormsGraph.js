@@ -38,7 +38,13 @@ const geographies = [
         percentage: '41%',
         visits: '1,933.332',
         up: false
-    }
+    },
+    {
+        country: 'Ghana',
+        percentage: '52%',
+        visits: '3,933.332',
+        up: true
+    },
 ]
 const GeographyStat = ({country, percentage, visits, up}) => {
     return (
@@ -63,7 +69,7 @@ const GeographyStat = ({country, percentage, visits, up}) => {
 const TormsGraph = () => {
     return (
         <>
-            <div>
+            <div className="w-[45%] pr-8">
                 <span
                     className="font-medium uppercase border-b border-black text-sm font-bold w-full flex justify-between">
                     <span> Geography </span>
@@ -74,9 +80,10 @@ const TormsGraph = () => {
                     <span className="w-[40%] text-start px-2"> % from Total </span>
                     <span className="w-[30%] text-end"> Visits </span>
                 </div>
-                <div className="flex flex-col space-y-3 pt-7">
+                <div className="flex flex-col space-y-4 pt-7">
                     {geographies.map((g, i) =>
-                        <GeographyStat key={i} percentage={g.percentage} visits={g.visits} country={g.country} up={g.up}/>)}
+                        <GeographyStat key={i} percentage={g.percentage} visits={g.visits} country={g.country}
+                                       up={g.up}/>)}
                 </div>
             </div>
         </>
