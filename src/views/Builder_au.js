@@ -1,6 +1,6 @@
-import AppHeader from "../components/AppHeader";
-import Banner from "../components/Banner";
-import Note from "../components/Note";
+import AppHeader from "../components/builder/AppHeader";
+import Banner from "../components/builder/Banner";
+import Note from "../components/builder/Note";
 
 export function Builder_au() {
     const notes = [
