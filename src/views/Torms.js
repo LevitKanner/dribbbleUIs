@@ -6,20 +6,22 @@ import VisitsGraph from "../components/Torms/VisitsGraph";
 import TormsGraph from "../components/Torms/TormsGraph";
 
 export const Torms = () => {
-    return <div className="flex w-[100%]">
-        <TormsSideBar/>
-        <div className="w-[92vw]">
-            <TormsHeader/>
-            <div className="flex space-x-6">
-                <div className="w-[55%] pl-6">
-                    <TormsStatistics/>
+    return (
+        <div className="flex w-[100%] torms">
+            <TormsSideBar/>
+            <div className="w-[92vw]">
+                <TormsHeader/>
+                <div className="flex space-x-6">
+                    <div className="w-[55%] pl-6">
+                        <TormsStatistics/>
+                    </div>
+                    <TormTraffic/>
                 </div>
-                <TormTraffic/>
-            </div>
-            <div className="flex space-x-6">
-                <VisitsGraph/>
-                <TormsGraph/>
+                <div className="flex space-x-6">
+                    <VisitsGraph/>
+                    <TormsGraph/>
+                </div>
             </div>
         </div>
-    </div>;
+    );
 }

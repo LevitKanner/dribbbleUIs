@@ -20,7 +20,7 @@ export function Builder_au() {
             city: "in LA"
         },
     ]
-    return <div className="bg-gradient-to-t from-[#97FFFF] to-[#56D3F4] min-h-screen">
+    return <div className="bg-gradient-to-t from-[#97FFFF] to-[#56D3F4] min-h-screen builder">
         <main className="max-w-7xl mx-auto ">
             <AppHeader/>
             <div className="px-6">
