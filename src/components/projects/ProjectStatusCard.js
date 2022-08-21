@@ -17,7 +17,7 @@ const Legend = ({title, figure, color}) => {
 const ProjectStatusCard = () => {
     return (
         <div className="text-white w-full h-[40%] bg-slate-800 p-5 rounded-md">
-            <span className="text-sm block">Project Status</span>
+            <span className="text-sm block text-white">Project Status</span>
             <div className="w-full py-5">
                 <div className="flex divide-x divide-white/20 h-full">
                     <div className="w-[30%] flex flex-col justify-center">
@@ -34,7 +34,9 @@ const ProjectStatusCard = () => {
                     </div>
 
                     <div className="w-[70%] flex space-x-8 items-center justify-end">
-                        <div className='w-32 h-32 rounded-full bg-sky-500'></div>
+                        <div className='w-32 h-32 rounded-full bg-sky-500 relative flex items-center justify-center'>
+                            <div className='w-28 h-28 rounded-full absolute bg-slate-800'></div>
+                        </div>
                         <div>
                             {legends.map((l, i) =>
                                 <Legend key={i} title={l.title} figure={l.figure} color={l.color}/>)}
