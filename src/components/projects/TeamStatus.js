@@ -22,7 +22,7 @@ const Member = ({name, position, hours}) => {
 
 const TeamStatus = () => {
     return (
-        <div className="w-[49%] h-full mt-4 rounded-md p-5 bg-slate-800 text-white">
+        <div className="w-[49%] h-full mt-4 rounded-md p-5 bg-[#33313B] text-white">
             <span className="text-sm block text-white"> Team Status </span>
             <div className="flex justify-between items-center uppercase text-white/30 text-xs py-3">
                 <span>Member</span>
