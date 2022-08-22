@@ -7,8 +7,8 @@ import {TbSettings} from "react-icons/tb";
 const ProjectsSideBar = () => {
     return (
         <aside
-            className="w-[7%] h-[100vh] bg-gray-800 border-r border-r-gray-700 flex flex-col justify-between items-center py-6">
-            <span className="w-10 h-10 rounded-full bg-indigo-900"></span>
+            className="w-[7%] h-[100vh] bg-[#2A2730] border-r border-r-gray-700 flex flex-col justify-between items-center py-6">
+            <span className="w-10 h-10 rounded-full bg-[#694CEB]"></span>
             <nav className="w-full">
                 <ul className="flex flex-col items-center space-y-4 w-full">
                     <li className="group w-full flex justify-center py-4 hover:border-r-4 hover:border-indigo-600 hover:bg-indigo-600/20 transition-all ease-linear">

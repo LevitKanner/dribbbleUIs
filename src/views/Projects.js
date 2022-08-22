@@ -8,7 +8,7 @@ import Calender from "../components/projects/Calender";
 
 const Projects = () => {
     return (
-        <main className="bg-slate-900 flex">
+        <main className="bg-[#24222B] flex">
             <ProjectsSideBar/>
             <div className="w-full">
                 <ProjectsHeader/>

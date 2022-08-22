@@ -2,7 +2,7 @@ import {FiSun} from "react-icons/fi";
 
 const Calender = () => {
     return (
-        <div className="w-[38%] h-full ml-4 rounded-md p-5 bg-slate-800 text-white">
+        <div className="w-[38%] h-full ml-4 rounded-md p-5 bg-[#33313B] text-white">
             <span className="text-sm block text-white"> Calender </span>
             <div className="flex items-center justify-between mt-7">
                 <span className="flex items-center text-white/50"><FiSun className="text-yellow-500 pr-1 w-5 h-5"/> Today</span>
@@ -17,7 +17,7 @@ const Calender = () => {
                 <div className="flex space-x-3 items-center">
                     <span className='text-white/50 text-sm w-11 text-start'> 9 AM </span>
                     <div className='h-[1px] bg-white/30 flex-grow relative'>
-                        <div className="bg-green-300 w-full h-20 rounded p-3">
+                        <div className="bg-[#78D0BF] w-full h-20 rounded p-3">
                             <span className="text-black font-bold text-sm"> Online Courses Page</span>
                             <div className='flex w-full justify-between items-center py-1 h-10'>
                                 <span className="text-black/60 text-xs"> Meeting </span>
@@ -47,7 +47,7 @@ const Calender = () => {
                 <div className="flex space-x-3 items-center">
                     <span className='text-white/50 text-sm w-11 text-start'> 1 PM </span>
                     <div className='h-[1px] bg-white/30 flex-grow relative'>
-                        <div className="absolute bg-indigo-500 w-full h-20 rounded -mt-6 p-3">
+                        <div className="absolute bg-[#694CEB] w-full h-20 rounded -mt-6 p-3">
                             <span className="text-white font-bold text-sm"> Smart Home App</span>
                             <div className='flex w-full justify-between items-center py-1 h-10'>
                                 <span className="text-white/60 text-xs"> Meeting </span>
